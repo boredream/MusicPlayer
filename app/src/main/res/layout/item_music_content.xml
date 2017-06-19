@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_book_content"
+    android:layout_width="92dp"
+    android:layout_height="132dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_image"
+        android:layout_width="92dp"
+        android:layout_height="107dp">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="92dp"
+            android:layout_height="102dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:padding="1dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/iv_check"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="4dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_tag"
+            android:layout_width="30dp"
+            android:layout_height="27dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-0.5dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+</LinearLayout>
